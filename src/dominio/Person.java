@@ -3,6 +3,17 @@ package dominio;
 public class Person {
     private String nome;
     private int idade;
+    private double salario;
+
+    public Person(String nome, int idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+    public Person(String nome, int idade, double salario){
+        this.nome = nome;
+        this.idade = idade;
+        this.salario = salario;
+    }
 
     public String getNome() {
         return nome;
@@ -16,6 +27,14 @@ public class Person {
         return idade;
     }
 
+    public double getSalario() {
+        return salario;
+    }
+
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+
     public void setIdade(int idade) {
         this.idade = idade;
     }
@@ -23,5 +42,6 @@ public class Person {
     public void imprime(){
         System.out.println("Nome: " + this.nome);
         System.out.println("Idade: " + this.idade);
+        System.out.println("Salário: " + this.salario);
     }
 }
