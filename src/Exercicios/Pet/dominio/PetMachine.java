@@ -1,9 +1,9 @@
 package Exercicios.Pet.dominio;
 
 public class PetMachine {
-    private boolean clean;
-    private int water;
-    private int shampoo;
+    private boolean clean = true;
+    private int water = 30;
+    private int shampoo = 10;
     private Pet pet;
 
 
@@ -59,7 +59,7 @@ public class PetMachine {
 
     public void setPet(Pet pet) {
         if(!this.clean){
-            System.out.println("A maquina esta suja . para colocar pet e necessario limpar - la");
+            System.out.println("A maquina esta suja . para colocar pet e necessario limpar -la");
             return;
         }
         if(hasPet()){
@@ -68,4 +68,20 @@ public class PetMachine {
         }
         this.pet = pet;
     }
+    public void removerPet(){
+        this.clean = this.pet.isClean();
+        System.out.println("O Pet " + this.pet.getNome() + "esta limpo");
+
+        this.pet = null;
+    }
+    public void lavarMaquina(){
+        this.water -= 10;
+        this.shampoo -= 2;
+        this.clean = true;
+        System.out.println("A maquina esta limpa");
+
+    }
+
+
+
 }
