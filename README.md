@@ -27,7 +27,7 @@ Este repositório contém exercícios e projetos desenvolvidos durante o **BootC
 ✅ **Controle** - if/else, loops, switch  
 ✅ **POO** - Classes, construtores, herança  
 ✅ **Encapsulamento** - Getters, setters, acesso controlado  
-✅ **Testes** - Testes unitários com JUnit
+
 
 ---
 
