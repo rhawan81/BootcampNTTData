@@ -46,4 +46,14 @@ public class Empregado {
     public void setCode(String code) {
         this.code = code;
     }
+
+
+
+    public void exibir(){
+        System.out.println("Nome: " + this.name);
+        System.out.println("Endereço: " + this.address);
+        System.out.println("Salário: " + this.salary);
+        System.out.println("Idade: " + this.age);
+        System.out.println("Código: " + this.code);
+    }
 }
