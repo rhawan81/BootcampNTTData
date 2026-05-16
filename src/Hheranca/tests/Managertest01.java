@@ -3,7 +3,7 @@ package Hheranca.tests;
 import Hheranca.dominio.Empregado;
 import Hheranca.dominio.Manager;
 
-public class Test01 {
+public class Managertest01 {
 public static void main(String[] args) {
     Empregado empregado = new Empregado();
     Manager manager = new Manager();
