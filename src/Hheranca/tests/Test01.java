@@ -14,17 +14,21 @@ public static void main(String[] args) {
     empregado.setAge(22);
     empregado.setCode("EMP001");
 
+    manager.setName("Maria");
+    manager.setAddress("Rua 2");
+    manager.setSalary(8000);
+    manager.setAge(30);
+    manager.setCode("MGR001");
+    manager.setLogin("maria123");
+    manager.setPassword("230423940234");
+    manager.setComission(1500);
 
-    System.out.println("Empregado:");
-    System.out.println("Nome: " + empregado.getName());
-    System.out.println("Endereço: " + empregado.getAddress());
-    System.out.println("Salário: " + empregado.getSalary());
-    System.out.println("Idade: " + empregado.getAge());
-    System.out.println("Código: " + empregado.getCode());
+
+    empregado.exibir();
+    System.out.println("-------------------------");
 
 
-
-    System.out.println("_-------------------------");
+    manager.exibir();
 
 
 
