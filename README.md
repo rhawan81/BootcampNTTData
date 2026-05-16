@@ -24,7 +24,7 @@ Este repositório contém exercícios e projetos desenvolvidos durante o **BootC
 ## 🎯 Tópicos Abordados
 
 ✅ **Fundamentos** - Variáveis, tipos, operadores  
-✅ **Controle** - if/else, loops, switch  
+✅ **Controle** - iKf/else, loops, switch  
 ✅ **POO** - Classes, construtores, herança  
 ✅ **Encapsulamento** - Getters, setters, acesso controlado  
 
