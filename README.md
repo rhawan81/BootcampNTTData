@@ -1,65 +1,39 @@
 # 🚀 BootCamp NTT DATA - Java
 
-> **Repositório de exercícios do BootCamp de Java da NTT DATA**
+[![Java](https://img.shields.io/badge/Java-11+-ED8B00?style=for-the-badge&logo=java)](https://www.oracle.com/java/)
+[![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ-IDEA-000000?style=for-the-badge&logo=intellij-idea)](https://www.jetbrains.com/idea/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
+
+> **Repositório de exercícios e projetos práticos do BootCamp de Java da NTT DATA**  
+> Abordando desde os fundamentos da linguagem até conceitos avançados de orientação a objetos.
+
+---
+
+## 📌 Índice
+
+- [Sobre o Projeto](#-sobre-o-projeto)
+- [Estrutura do Projeto](#-estrutura-do-projeto)
+- [Tópicos Abordados](#-tópicos-abordados)
+- [Pré-requisitos](#-pré-requisitos)
+- [Como Usar](#-como-usar)
+- [Exemplos Práticos](#-exemplos-práticos)
+- [Estrutura de Pastas](#-estrutura-de-pastas-detalhada)
+- [Autor](#-autor)
+
+---
 
 ## 📋 Sobre o Projeto
 
-Este repositório contém exercícios e projetos desenvolvidos durante o **BootCamp NTT DATA de Java**, abordando desde os fundamentos até conceitos avançados de orientação a objetos.
+Este repositório contém uma coleção completa de **exercícios e projetos práticos** desenvolvidos durante o **BootCamp NTT DATA de Java**. O projeto progride de forma estruturada, começando com os conceitos fundamentais da linguagem Java e evoluindo para tópicos avançados de **Programação Orientada a Objetos (POO)**.
+
+### 🎓 Objetivo
+
+Consolidar conhecimentos em Java através de:
+- ✅ Exercícios práticos progressivos
+- ✅ Implementação de conceitos reais
+- ✅ Testes unitários e validação de código
+- ✅ Boas práticas de desenvolvimento
 
 ---
 
-## 📚 Conteúdo do Projeto
-
-| Pasta | Descrição |
-|-------|-----------|
-| **dominio** | Classes base: Person, Person2 |
-| **FundamentosdaLinguagemdeProgramação** | Conceitos básicos: Hello, Quadrado, Retangulo |
-| **EstruturasdControleJava** | Estruturas de controle: Tabuada, IMC, Divisão |
-| **JavaeaArtedaAbstraçãocomClasseseEncapsulamento** | POO avançada: Carro, ContaBancaria |
-| **Exercicios/Pet** | Projeto prático: Sistema de Pets |
-| **tests** | Testes unitários de todos os módulos |
-
----
-
-## 🎯 Tópicos Abordados
-
-✅ **Fundamentos** - Variáveis, tipos, operadores  
-✅ **Controle** - iKf/else, loops, switch  
-✅ **POO** - Classes, construtores, herança  
-✅ **Encapsulamento** - Getters, setters, acesso controlado  
-
-
----
-
-## 🛠️ Tecnologias
-
-- **Java** ☕
-- **IntelliJ IDEA**
-- **JDK 11+**
-
----
-
-## 📂 Como Usar
-
-1. **Abrir no IntelliJ:** Abra `BootcampNTTDATA.iml`
-2. **Executar Testes:** Clique direito no arquivo → `Run`
-3. **Executar Classes:** Clique direito → `Run 'ClassName.main()'`
-
----
-
-## 💡 Exemplos
-
-### Person com Encapsulamento
-```java
-public class Person {
-    private String nome;
-    private int idade;
-    
-    public Person(String nome, int idade) {
-        this.nome = nome;
-        this.idade = idade;
-    }
-    
-    public String getNome() { return nome; }
-    public void setNome(String nome) { this.nome = nome; }
-}
+## 📂 Estrutura do Projeto
