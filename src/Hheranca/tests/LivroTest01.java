@@ -9,8 +9,8 @@ public class LivroTest01 {
         b = c;
 
         c = null;
-        System.out.println(b);
-        System.out.println(c);
+//        System.out.println(b);
+//        System.out.println(c);
         int [] nums;
         nums = new int [7];
         nums[0] = 6;
@@ -20,6 +20,7 @@ public class LivroTest01 {
         nums[4] = 19;
         nums[5] = 19;
         nums[6] = 19;
+
 
 
     }
