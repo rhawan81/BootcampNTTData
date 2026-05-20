@@ -28,20 +28,24 @@ public class Users {
     }
 
     public void setSenha(String senha) {
+        System.out.println("Senha alterada com sucesso!");
         this.senha = senha;
     }
 
     public String getEmail() {
+        System.out.println("Email do usuário: " + email);
         return email;
     }
 
     public void setEmail(String email) {
+        System.out.println("Email alterado com sucesso!");
         this.email = email;
     }
 
 
     public boolean realizarLogin(String email , String senha){
         if(this.email.equals(email) && this.senha.equals(senha)){
+            System.out.println("Login realizado com sucesso");
             return true;
         } else {
             System.out.println("Email ou senha incorretos");
@@ -50,10 +54,11 @@ public class Users {
 
     }
     public boolean realizarLogoff(String email , String senha){
-        if(this.email.equals(email) && this.senha.equals(senha)){
+        if(this.email.equals(email)){
             System.out.println("Logoff realizado com sucesso");
             return true;
         }
+        System.out.println("Email nao encontrado!");
 
         return false;
     }
@@ -72,6 +77,7 @@ public class Users {
         return "Nome: " + this.nome + " Email: " + this.email;
 
     }
+
 
 
 
