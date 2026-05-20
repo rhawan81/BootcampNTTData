@@ -27,11 +27,14 @@ public class Vendedor  extends Users{
 
 
     public boolean realizarLogin(String email , String senha){
-        return super.realizarLogin(email, senha);
+         super.realizarLogin(email, senha);
+        return true;
     }
 
     public boolean realizarLogoff(String email , String senha){
-        return super.realizarLogoff(email, senha);
+         super.realizarLogoff(email, senha);
+
+        return true;
 
     }
 
