@@ -5,6 +5,13 @@ import Hheranca.dominio.Carro;
 public class CarroTest01 {
     public static void main(String[] args) {
         Carro[] carro = new Carro[5];
+        Carro[] carro2 = new Carro[2];
+        carro2[0] = new Carro("BMW", 2002,"Esportivo");
+        Carro carroEspecial = carro2[0];
+
+        carro2[0].setNome("Mercedes-Benz");
+        System.out.println(carroEspecial.getNome());
+
 
         carro[0] = new Carro("Fusca",2000,"Sport");
         carro[1] = new Carro("Gol",2020,"automatico");
