@@ -2,11 +2,11 @@ package Hheranca.dominio;
 
 public class Atendente extends Users{
 
-    private int valorEmCaixa;
+    private double valorEmCaixa;
 
 
 
-    public int getValorEmCaixa(){
+    public double getValorEmCaixa(){
         return this.valorEmCaixa;
     }
 
@@ -28,6 +28,18 @@ public class Atendente extends Users{
     public String alterarDados(String nome, String email , String senha){
         super.alterarDados(nome, email, senha);
         return "Dados alterados com sucesso!";
+    }
+
+    public double receberPagamento(double valor){
+
+        this.valorEmCaixa += valor;
+        return valor;
+    }
+
+    public double fecharCaixa(){
+        System.out.println("Valor total em caixa: " + this.valorEmCaixa);
+        this.valorEmCaixa = 0;
+        return this.valorEmCaixa;
     }
 
 
