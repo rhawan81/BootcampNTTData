@@ -4,7 +4,7 @@
 
 ## 📋 Sobre o Projeto
 
-Este repositório contém exercícios e projetos desenvolvidos durante o **BootCamp NTT DATA de Java  **, abordando desde os fundamentos até conceitos avançados de orientação a objetos.
+Este repositório contém exercícios e projetos desenvolvidos durante o **BootCamp NTT DATA de Java na DIO **, abordando desde os fundamentos até conceitos avançados de orientação a objetos.
 
 ---
 
